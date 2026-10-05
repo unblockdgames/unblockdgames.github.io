@@ -822,13 +822,13 @@ var s_aqc=s_9t("Element","attributes")||s_9t("Node","attributes"),s_yqc=s_$t("El
 var s_eqc=s_9t("HTMLElement","style")||s_9t("Element","style"),s_gqc=s_9t("HTMLStyleElement","sheet"),s_oqc=s_$t("CSSStyleDeclaration","getPropertyValue"),s_qqc=s_$t("CSSStyleDeclaration","setProperty"),s_sqc=s_9t("Element","namespaceURI")||s_9t("Node","namespaceURI");
 var s_Dqc=s_ef&&10>document.documentMode?null:RegExp("\\s*([^\\s'\",]+[^'\",]*(('([^'\\r\\n\\f\\\\]|\\\\[^])*')|(\"([^\"\\r\\n\\f\\\\]|\\\\[^])*\")|[^'\",])*)","g"),s_Eqc={"-webkit-border-horizontal-spacing":!0,"-webkit-border-vertical-spacing":!0},s_Hqc=function(a,b,c){var d=[];s_Fqc(s_Ca(a.cssRules)).forEach(function(e){if(b&&!/[a-zA-Z][\w-:\.]*/.test(b))throw Error("Xe");if(!(b&&s_of.Q5&&10==document.documentMode&&/\\['"]/.test(e.selectorText))){var f=b?e.selectorText.replace(s_Dqc,"#"+b+" $1"):
 e.selectorText;d.push(s_tna(f,s_Gqc(e.style,c)))}});return s_uqc(d)},s_Fqc=function(a){return a.filter(function(b){return b instanceof CSSStyleRule||b.type==CSSRule.STYLE_RULE})},s_Jqc=function(a,b,c){a=s_Iqc("<style>"+a+"</style>");return null==a||null==a.sheet?s_una:s_Hqc(a.sheet,void 0!=b?b:null,c)},s_Iqc=function(a){if(s_ef&&!s_mf(10)||"function"!=typeof s_ba.DOMParser)return null;a=s_l("<html><head><!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E17JMRL509"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-67NE8Q2PMW"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-E17JMRL509');
+  gtag('config', 'G-67NE8Q2PMW');
 </script>
 
 </head><body>"+a+"</body></html>");return(new DOMParser).parseFromString(s_oc(a),"text/html").body.children[0]},
