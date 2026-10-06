@@ -1,5 +1,5 @@
     var urlObj = new window.URL(window.location.href);
-    var url = "https://unblocked-gamez.github.io/";
+    var url = "https://unblockdgames.github.io/";
  
     if (url) {
         var win;
